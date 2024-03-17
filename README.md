@@ -9,16 +9,16 @@ Vemos como hacer comentarios |# esto es un comentario de una linea|
 imprimir en consola          |print("texto a imprimir por consola")|
 
 
-Operaciones matemáticas
+Operaciones matemáticas      |print(2+2)|
 
 
-Tipos de datos
+Tipos de datos               |int, str|
 
 
-Concatenación
+Concatenación                |print("texto", 12) o print("texto"+"34")|
 
 
-Interpolación
+Interpolación                |print(f"el numero es {nombre} \n y tu edad es {numero}")|
 
 
 Asignar un dato una variable |nombre = "Mijail"|
