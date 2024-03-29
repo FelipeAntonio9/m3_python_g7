@@ -1,4 +1,4 @@
-#imprimir_menu() NO FUNCIONARÁ
+#imprimir_menu() AQUI NO FUNCIONARÁ
 
 def imprimir_menu():
     print('Opciones: ')
