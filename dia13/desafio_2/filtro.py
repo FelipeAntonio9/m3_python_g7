@@ -8,4 +8,11 @@ precios = {'Notebook': 700000,
 def filtrar(diccionario, umbral):
     filtro = {k:v for k,v in diccionario.items() if v > umbral}
     return filtro
-filtrar(precios, 12000)
+
+filtrado = filtrar(precios, 30000)
+
+resultado = ', '.join(filtrado)
+
+print("")
+
+print(f"Los productos mayores al umbral son: {resultado}")
