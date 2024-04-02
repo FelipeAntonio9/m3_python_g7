@@ -7,7 +7,10 @@ def restar(x,y):
     """
     print(f"El resultado de la resta es  {x-y}")
 
-if __name__ == "__main__":
+"""if __name__ == "__main__":
         print("Probando el metodo resta")
 restar(10,5)
 restar(3,2)
+"""
+
+# TUVE QUE COMENTAR LO DE ARRIBA PORQUE ME IMPRIMIA ESOS RESULTADOS CUANDO INICIABA EL SCRIPT MAIN.PY
