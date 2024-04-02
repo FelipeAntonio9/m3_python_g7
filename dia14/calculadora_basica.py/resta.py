@@ -1,4 +1,4 @@
-def sumar(x,y):
+def restar(x,y):
     """imprimir la resta de dos numeros
 
     Args:
@@ -6,3 +6,8 @@ def sumar(x,y):
         y (float): segundo numero
     """
     print(f"El resultado de la resta es  {x-y}")
+
+if __name__ == "__main__":
+        print("Probando el metodo resta")
+restar(10,5)
+restar(3,2)

@@ -11,3 +11,4 @@ def elevar(base, exponente):
     return base**exponente
 
 elevar(2,4)
+elevar(5,4)
