@@ -14,3 +14,18 @@ def tipo_salsa(ingredientes, eleccion):
         print('No se ha cambiado su tipo de Salsa')
  
     return ingredientes
+
+#if __name__ == '__main__':
+    ingredientes_prueba = {'masa': 'Masa Tradicional',
+                'salsa': 'Salsa de Tomate',
+                'Ingredientes': ['queso']
+                }
+    
+    eleccion = input("""Seleccione su tipo de Salsa:
+    T). Salsa de Tomate
+    A). Salsa Alfredo
+    B). Salsa Barbecue
+    P). Salsa Pesto
+    > """).upper()
+    ingredientes = tipo_salsa(ingredientes_prueba, eleccion)
+    print(ingredientes)
